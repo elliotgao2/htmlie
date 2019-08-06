@@ -16,5 +16,5 @@ html [css selectors][:attr]
 ```
 $ http example.com | html title
 $ curl example.com | html title
-$ cat index.html > html a :href
+$ cat index.html | html a :href
 ```
